@@ -1,4 +1,5 @@
 
+
 /*CABECALHO*/
 .cabecalhoPrincipal .container {
 
@@ -40,6 +41,7 @@
     display: flex;
 }
 
+
 /*MAPA DE CURSOS*/
 .rodapePrincipal-navMap-list{
 
@@ -52,6 +54,7 @@
     */
 }
 
+
 /*NOSSOS CURSOS*/
 .conteudoPrincipal-cursos{
 
@@ -61,5 +64,24 @@
 
 .conteudoPrincipal-cursos-link{
 
-    width: 20%;
+    width: 22%;
+    margin: 1%;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n){
+
+    margin-right: 0;
+}
+.conteudoPrincipal-cursos-link:nth-child(4n+1){
+
+    margin-left: 0;
+}
+
+
+
+/*VIDEO SOBRE*/
+.videoSobre .container {
+
+    display: flex;
+    justify-content: space-around;
 }
