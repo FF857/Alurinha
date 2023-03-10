@@ -14,6 +14,39 @@
 }
 
 
+/*NOSSOS CURSOS*/
+.conteudoPrincipal-cursos{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos-link{
+
+    width: 21%;
+}
+
+
+/*MAPA DE CURSOS*/
+.rodapePrincipal-navMap-list{
+
+    display: flex;
+    height: 260px;
+    flex-flow: column wrap;
+    /*
+    flex-direction: column;
+    flex-wrap: wrap;
+    */
+}
+
+
+/*VIDEO SOBRE*/
+.videoSobre .container {
+
+    display: flex;
+    justify-content: space-around;
+}
+
 
 /*RODA PE*/
 .rodapePrincipal-patrocinadores .container{
@@ -39,49 +72,4 @@
 .rodapePrincipal-contatoForm-fieldset {
 
     display: flex;
-}
-
-
-/*MAPA DE CURSOS*/
-.rodapePrincipal-navMap-list{
-
-    display: flex;
-    height: 260px;
-    flex-flow: column wrap;
-    /*
-    flex-direction: column;
-    flex-wrap: wrap;
-    */
-}
-
-
-/*NOSSOS CURSOS*/
-.conteudoPrincipal-cursos{
-
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.conteudoPrincipal-cursos-link{
-
-    width: 22%;
-    margin: 1%;
-}
-
-.conteudoPrincipal-cursos-link:nth-child(4n){
-
-    margin-right: 0;
-}
-.conteudoPrincipal-cursos-link:nth-child(4n+1){
-
-    margin-left: 0;
-}
-
-
-
-/*VIDEO SOBRE*/
-.videoSobre .container {
-
-    display: flex;
-    justify-content: space-around;
 }
