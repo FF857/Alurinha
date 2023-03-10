@@ -44,7 +44,22 @@
 .rodapePrincipal-navMap-list{
 
     display: flex;
+    height: 260px;
+    flex-flow: column wrap;
+    /*
     flex-direction: column;
     flex-wrap: wrap;
-    height: 260px;
+    */
+}
+
+/*NOSSOS CURSOS*/
+.conteudoPrincipal-cursos{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos-link{
+
+    width: 20%;
 }
